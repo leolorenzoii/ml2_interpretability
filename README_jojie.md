@@ -27,7 +27,7 @@ pkgs_dirs:
 channel_priority: strict
 ```
 
-This tells conda what channels to use and more importantly where to store packages. This ensures that we have write directory on the packages directory of `conda`.
+This tells conda what channels to use and more importantly where to store packages. This ensures that we have write directory privileges on the packages directory of `conda`.
 
 After this, you should be able to use `conda` to create virtual environments in your machine. Congratulations! 🎉
 
