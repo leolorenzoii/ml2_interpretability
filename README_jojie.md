@@ -31,4 +31,4 @@ This tells conda what channels to use and more importantly where to store packag
 
 After this, you should be able to use `conda` to create virtual environments in your machine. Congratulations! 🎉
 
-You may know proceed to create the environment for this repository as stated in [README.md](./README.md)
+You may now proceed to create the environment for this repository as stated in [README.md](./README.md)
