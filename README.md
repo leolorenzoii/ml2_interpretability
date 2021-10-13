@@ -19,7 +19,7 @@ This creates an environment named `ml2_interpretability` and installs all the re
 Activate this environment using the command:
 
 ```
-conda activate `ml2_interpretability`
+conda activate ml2_interpretability
 ```
 
 Afterwards, launch the jupyter notebook in your machine.
