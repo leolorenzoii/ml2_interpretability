@@ -1,3 +1,6 @@
+# Ignore artifact directory when creating package for helper function
+src/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
