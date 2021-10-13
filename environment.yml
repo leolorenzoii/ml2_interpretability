@@ -1,0 +1,20 @@
+name: ml2_interpretability
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib=3.4.3
+  - numpy=1.21.2
+  - pandas=1.3.3
+  - python=3.9.7
+  - ipykernel=6.2.0
+  - scikit-learn=1.0
+  - seaborn=0.11.2
+  - shap=0.39.0
+  - pip=21.2.4
+  - lime=0.2.0.1
+  - scipy=1.7.1
+  - notebook=6.4.4
+  - pip:
+    - jupyter_contrib_nbextensions==0.5.1
+    - "--editable=git+https://github.com/leolorenzoii/ml2_interpretability.git#egg=helper_codes"
