@@ -4,7 +4,7 @@ This repository contains codes and notebooks used in the discussion of AIM's MSD
 
 ## Setup
 
-To ensure that we run the codes without any dependency error, it is recommended to create an environment for this repository. To do this, first make sure that `conda` is installed in your machine (see []Conda Installation Instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)). For those who want to use `conda` in `jojie`, read the guide written in [README_jojie.md](./README_jojie.md).
+To ensure that we run the codes without any dependency error, it is recommended to create an environment for this repository. To do this, first make sure that `conda` is installed in your machine (see [Conda Installation Instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)). For those who want to use `conda` in `jojie`, read the guide written in [README_jojie.md](./README_jojie.md).
 
 ### On Local Machine
 
@@ -14,7 +14,9 @@ After installing `conda`, create the environment for this repository using the f
 conda env create -f environment.yml
 ```
 
-This creates an environment named `ml2_interpretability` and installs all the required packages with the specified version. Activate this environment using the command:
+This creates an environment named `ml2_interpretability` and installs all the required packages with the specified version according to the `environment.yml` file specified here.
+
+Activate this environment using the command:
 
 ```
 conda activate `ml2_interpretability`
