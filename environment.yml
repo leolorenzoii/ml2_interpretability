@@ -15,6 +15,8 @@ dependencies:
   - lime=0.2.0.1
   - scipy=1.7.1
   - notebook=6.4.4
+  - eli5=0.11.0
   - pip:
     - jupyter_contrib_nbextensions==0.5.1
-    - "--editable=git+https://github.com/leolorenzoii/ml2_interpretability.git#egg=helper_codes"
+    - "--editable=git+ssh://git@github.com/leolorenzoii/model_interpretability.git#egg=helper_codes"
+    - ipywidgets==7.6.5

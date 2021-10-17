@@ -9,5 +9,7 @@ scikit-learn==1.0
 scipy==1.7.1
 seaborn==0.11.2
 shap==0.39.0
+eli5==0.11.0
+ipywidgets==7.6.5
 ipykernel==6.2.0
--e git+https://github.com/leolorenzoii/ml2_interpretability.git#egg=helper_codes
+-e git+ssh://git@github.com/leolorenzoii/model_interpretability.git#egg=helper_codes
