@@ -18,5 +18,5 @@ dependencies:
   - eli5=0.11.0
   - pip:
     - jupyter_contrib_nbextensions==0.5.1
-    - "--editable=git+ssh://git@github.com/leolorenzoii/model_interpretability.git#egg=helper_codes"
+    - "--editable=git+https://github.com/leolorenzoii/ml2_interpretability.git#egg=helper_codes"
     - ipywidgets==7.6.5
